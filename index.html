@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="text.js" defer></script>
+</head>
+<body>
+    <form id= "form">
+        <h1>Birthday details</h1>
+        <div class="details">
+            <input type="name" id="name" placeholder="Name" required>
+        </div>
+        <div class="details"></div>
+            <input type="date" id="date"required>
+        </div>
+        <div class="details">
+            <button type="submit" id="button"><a href="main.html">Submit</a></button>
+        </div>
+    </form>
+    <div id = "countdown-0">
+        <h1 id="name-0"></h1>
+        <div class="cd-el countdown-container" id="Countdown-cont">
+            <div class="days">
+                <p class="big-text" id="days">0</p>
+                <span>Days</span>
+            </div>
+            <div class="hours">
+                <p class="big-text" id="hours">0</p>
+                <span>Hours</span>
+            </div>
+            <div class="minutes">
+                <p class="big-text" id="minutes">0</p>
+                <span>Minutes</span>
+            </div>
+            <div class="seconds">
+                <p class="big-text" id="seconds">0</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

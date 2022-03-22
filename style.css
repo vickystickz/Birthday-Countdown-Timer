@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'lato', 'san-serif';
+    background-image: url("Birthday.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:99vh;
+    overflow: hidden;
+}
+
+#form{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#countdown-0 {
+    text-align: center;
+
+}
+
+
+.details {
+    margin: 20px 0;
+}
+.details p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    padding: 8px 6px;
+    border-radius: 10px;
+    border: none;
+}
+
+#date{
+    padding: 7px 18px;
+}
+
+button {
+    padding: 12px 18px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(66, 1, 109);
+}
+
+button a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(113, 45, 158);
+}
+
+.countdown-container {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.big-text {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 1.5rem;
+    font-weight: bold;
+}
+
+.cd-el {
+    text-align: center;
+}
+
+.cd-el span {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
